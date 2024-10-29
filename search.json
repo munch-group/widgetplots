@@ -2,12 +2,23 @@
   {
     "objectID": "notebooks/showcase.html",
     "href": "notebooks/showcase.html",
-    "title": "Dummy data",
+    "title": "Showcase",
     "section": "",
-    "text": "Examples\nmenu_plot(data_frame, x='species', y='body_mass_g', hue='sex', plot='boxplot',\n          palette=\"tab10\")\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', hue='sex', plot='scatterplot')\nmenu_plot(data_frame, x='species', y='bill_depth_mm')\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', graphics=[sns.scatterplot])\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', hue='species', graphics=[sns.kdeplot])",
+    "text": "Dummy data\ndata_frame = sns.load_dataset('penguins')\ndata_frame.head()\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale",
     "crumbs": [
       "Notebooks",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dummy data</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Showcase</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/showcase.html#examples",
+    "href": "notebooks/showcase.html#examples",
+    "title": "Showcase",
+    "section": "Examples",
+    "text": "Examples\n\nmenu_plot(data_frame, x='species', y='body_mass_g', hue='sex', plot='boxplot',\n          palette=\"tab10\")\n\n\n\n\n\n\n\n\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', hue='sex', plot='scatterplot')\n\n\n\n\n\n\n\n\nmenu_plot(data_frame, x='species', y='bill_depth_mm')\n\n\n\n\n\n\n\n\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', graphics=[sns.scatterplot])\n\n\n\n\n\n\n\n\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', hue='species', graphics=[sns.kdeplot])",
+    "crumbs": [
+      "Notebooks",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Showcase</span>"
     ]
   },
   {
