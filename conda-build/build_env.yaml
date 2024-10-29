@@ -5,3 +5,4 @@ dependencies:
   - anaconda
   - conda-build
   - anaconda-client
+  - conda-verify

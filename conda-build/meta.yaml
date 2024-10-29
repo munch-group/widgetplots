@@ -20,6 +20,12 @@ requirements:
     - pip
   run:       # write here the list of libraries to look for your library dependencies
     - python
+    - ipython
+    - ipywidgets 
+    - seaborn
+    - matplotlib
+    - jupyterlab>=4
+    - nodejs
 
 
 channels:    # write here the list of channels to look for your library dependencies
