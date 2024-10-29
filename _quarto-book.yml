@@ -20,24 +20,12 @@ comments:
 book:
   repo-url: "https://github.com/munch-group/widgetplots"
   repo-actions: [edit, issue, source]  
-  title: "Title of your project"
-  author: "Joanna Doh"  
+  title: "Widget plots for Jupyter"
+  author: "Kasper Munch"  
   chapters:
     - index.qmd
-    - workflow.py
-    - workflow_notebooks.py    
     - part: "Notebooks"
       chapters: 
-      - notebooks/example.ipynb
-    - part: "Reports"
-      chapters: 
-      - reports/example.qmd
-    - part: "Tables"
-      chapters: 
-      - tables/example.qmd
-    - part: "Slides"
-      chapters:
-      # (the same files must be listed _quarto-slides.yml to render as slides)
-      - slides/example.qmd 
+      - notebooks/showcase.ipynb
      
 bibliography: references.bib

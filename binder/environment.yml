@@ -1,26 +1,14 @@
+name: widgetplots
 channels:
-  - conda-forge
-  - kaspermunch
-  - gwforg
-  - micknudsen
-  - r  
   - defaults
+  - conda-forge
 dependencies:
-  - jupyterlab
-  - nodejs
-  - pytables
-  - scipy
-  - seaborn
-  - slurm-jupyter
-  - statsmodels
-  - geneinfo
+  - gh
   - git
+  - ipywidgets
+  - jupyterlab=4
   - nbdime
-  - gwf
-  - gwf-utilization
-  - r-essentials
-  - pyyaml
-  - tabulate
-  - pycryptodome>3.10
-  - pbkdf2
-  - cryptography 
+  - nodejs
+  - seaborn
+  - statsmodels
+  - conda-build  
