@@ -1,0 +1,33 @@
+[
+  {
+    "objectID": "notebooks/showcase.html",
+    "href": "notebooks/showcase.html",
+    "title": "Dummy data",
+    "section": "",
+    "text": "Examples\nmenu_plot(data_frame, x='species', y='body_mass_g', hue='sex', plot='boxplot',\n          palette=\"tab10\")\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', hue='sex', plot='scatterplot')\nmenu_plot(data_frame, x='species', y='bill_depth_mm')\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', graphics=[sns.scatterplot])\nmenu_plot(data_frame, x='bill_length_mm', y='bill_depth_mm', hue='species', graphics=[sns.kdeplot])",
+    "crumbs": [
+      "Notebooks",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dummy data</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Widget plots for Jupyter",
+    "section": "",
+    "text": "Title\nThese pages are generated from a Git repository…",
+    "crumbs": [
+      "Title"
+    ]
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Widget plots for Jupyter",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Title"
+    ]
+  }
+]
