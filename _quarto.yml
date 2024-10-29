@@ -1,0 +1,4 @@
+profile:
+  group: 
+    - [book, slides]
+  default: book

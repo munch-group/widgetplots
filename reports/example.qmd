@@ -1,0 +1,72 @@
+---
+title: My manuscript
+author: My Name
+date: 'April 25nd, 2024'
+format:
+ html:
+  code-fold: true
+---
+
+```{python}
+#| echo: false
+# make global parameters available to embed in text
+import sys
+sys.path.append('..')
+from global_params import load_params
+params = load_params('../global_params.yml')
+```
+
+
+## Abstract
+
+<!-- Dummy text -->
+Denmmark ... {{< lipsum 1 >}} 
+
+
+## Introduction
+
+Denmark is .... {{< lipsum 3 >}} 
+
+## Results
+
+### Social norms
+
+In Denmark, the workplace interaction is very informal and largely unaffected by seniority and age. 
+
+{{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
+
+I found that neither academic seniority or age of workplace individuals much affected how informal our interaction was (see @fig-danish-interaction). 
+
+{{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
+
+{{< embed ../notebooks/example.ipynb#doc-formality-correlation echo=false >}}
+
+<!-- Dummy text -->
+{{< lipsum 1 >}} 
+
+## Discussion
+
+This this investigation of `{python} params.sample_size` Danes..., 
+
+<!-- Dummy text -->
+{{< lipsum 1 >}} 
+
+## Methods
+
+### Interaction analysis
+
+<!-- Dummy text -->
+{{< lipsum 1 >}} 
+
+@tbl-subjects lists the samples included in the analysis.
+
+{{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
+
+<!-- Dummy text -->
+{{< lipsum 1 >}} 
+
+{{< embed ../notebooks/example.ipynb#doc-interviews echo=false >}}
+
+## References
+
+
