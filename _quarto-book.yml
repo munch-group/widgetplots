@@ -20,7 +20,7 @@ comments:
   hypothesis: true
 
 book:
-  repo-url: "https://github.com/munch-group/template"
+  repo-url: "https://github.com/munch-group/widgetplots"
   repo-actions: [edit, issue, source]  
   title: "Title of your project"
   author: "Joanna Doh"  
