@@ -28,4 +28,3 @@ book:
       chapters: 
       - notebooks/showcase.ipynb
      
-bibliography: references.bib
