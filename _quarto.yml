@@ -1,4 +1,4 @@
 profile:
   group: 
-    - [book, slides]
+    - [book, ]
   default: book

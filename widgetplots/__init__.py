@@ -1,38 +1,10 @@
-
-def foo(x, y=1):
-    """
-    The sum of two numbers.
-
-    Parameters
-    ----------
-    x : int
-        The first number
-    y: int, default=1
-        The second number.
-
-    Returns
-    -------
-    int
-        Sum of two numbers.
-
-
-    See Also
-    --------
-    scripts.bar : "Printing hello world".     
-
-    """
-    return x + y
-
-
 import sys
-import pandas as pd
-import numpy as np
-import ipywidgets 
+import ipywidgets
+from IPython.display import display 
 import seaborn as sns
-import matplotlib.pyplot as plt 
-# %config InlineBackend.figure_format = 'retina'
+import matplotlib.pyplot as plt
 
-graphics = [
+_graphics = [
     sns.boxplot, 
     sns.scatterplot, 
     sns.violinplot,
@@ -43,7 +15,8 @@ graphics = [
     sns.barplot,
 ]
 
-def interactive_plot(df, defaults, graphics=graphics, strings_as_cats=False, palette="colorblind"):
+def menu_plot(df, defaults, graphics=_graphics, strings_as_cats=False, palette="colorblind"):
+
     def plot(selected_x, selected_y, selected_hue=None, selected_plot=graphics[0]):
         plt.close('all')
         fig, ax = plt.subplots(1, 1, figsize=(8,4))
