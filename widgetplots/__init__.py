@@ -16,11 +16,11 @@ _graphics = [
 ]
 
 def menu_plot(df, graphics=_graphics, 
-              strings_as_cats=False, palette="colorblind", style='darkgrid', **kwargs):
+              strings_as_cats=False, palette="colorblind", style='darkgrid', figsize=(8,4), **kwargs):
 
     def plot(selected_x, selected_y, selected_hue=None, selected_plot=graphics[0]):
         plt.close('all')
-        fig, ax = plt.subplots(1, 1, figsize=(8,4))
+        fig, ax = plt.subplots(1, 1, figsize=figsize)
         sns.set_style(style)
         sns.set_palette(palette)
         kwargs = dict(x=df[selected_x], y=df[selected_y])
